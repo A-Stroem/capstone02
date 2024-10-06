@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="./styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- <header> -->
+    <section>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="#">Anders Strøm</a>
+                <!-- Hamburger menu toggle button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar items -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- <title> -->
+    <section id="home" style="height: 100vh;">
+        <div class="gradient-background" style="height: 100vh;">
+            <div class="container col-xxl-8 px-4 pt-5 grad">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="./Assets/profile-pic_1.1.1.jpg" class="d-block mx-lg-auto img-fluid"
+                            alt="Picture of Anders" width="700" height="500" loading="lazy" id="profile-picture" />
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                            Anders Strøm
+                        </h1>
+                        <p class="lead">
+                            Cyber Security Engineer, Web Developer, and Colorist.
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-light btn-lg px-4 me-md-2">
+                                <a class="contact-button-link" href="#contact">Contact</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <about> -->
+    <section id="about">
+        <div class="container text-left mt-5 pt-5">
+            <div class="row align-items-start">
+                <div class="col-12 col-xl-6 col-sm-12">
+                    <h2>About Me</h2>
+                    <p>Hi there! <br>
+                        I’m passionate about IT security, and it’s not just my field of study—it’s also my career path.
+                        I enjoy exploring how technology works under the hood and ensuring that systems are safe and
+                        secure. <br> <br>
+                        Outside the digital realm, I’m an enthusiast of analog photography, capturing the world around
+                        me one frame at a time. I also have a keen eye for film and spend my free moments color grading
+                        to bring visual stories to life. Balancing tech with creativity is what keeps me inspired every
+                        day! <br> <br>
+                        In addtion to that, I'm an avid Dua Lipa fan. I've seen her live in concert five times (plus two
+                        online) and I'm looking forward to seeing her again in 2025.
+                    </p>
+                </div>
+                <div class="col about-me-pic align-self-center">
+                    <img clas="about-me-pic" src="./Assets/DSC_0649.jpg" alt="picture of me" height="250px">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <skills> -->
+    <section id="skills">
+        <div class="container text-left mt-5 pt-5">
+            <div class="row align-items-start">
+                <div class="col col-xl-6 col-sm-12">
+                    <h2>Skills</h2>
+                    <p>Here are some of the skills I have acquired over the years:</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Linux</li>
+                        <li>Windows</li>
+                        <li>Networking</li>
+                        <li>Security</li>
+                        <li>Color Grading</li>
+                        <li>Analog Photography</li>
+                    </ul>
+                </div>
+                <div class="col about-me-pic align-self-center">
+                    <img clas="about-me-pic" src="./Assets/000344110002_2.jpg" alt="pic from Paris" height="250px">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <div class="container px-4 py-5 mt-5" id="featured-3">
+            <h2 class="pb-2 border-bottom">Hobbies</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <img src="./Assets/colorgrading.jpg" alt="briefcase" height="200px" />
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Color Grading</h3>
+                    <p>
+                        Color grading is an exciting and creative process that transforms the look and feel of visual
+                        content. By adjusting colors, contrast, and brightness, you can evoke different emotions and set
+                        the tone for a scene. It's like painting with light, where every adjustment can bring out hidden
+                        details and enhance the storytelling. The ability to experiment and see immediate results makes
+                        color grading a fun and rewarding experience, allowing you to bring your artistic vision to life
+                        and make your visuals truly stand out.
+                    </p>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <img src="./Assets/pizza.jpg" alt="bus-front" height="200px" />
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Pizza Making</h3>
+                    <p>
+                        Making pizza in an Ooni pizza oven is a delightful and engaging experience that brings the joy
+                        of authentic, wood-fired pizza right to your backyard. The high temperatures of the Ooni oven
+                        ensure a perfectly crispy crust while maintaining a soft and chewy interior, just like
+                        traditional Neapolitan pizzas. Experimenting with different toppings and dough recipes allows
+                        you to customize each pizza to your taste, making the process both fun and rewarding. The quick
+                        cooking time and the satisfaction of creating restaurant-quality pizza at home make using an
+                        Ooni pizza oven a favorite pastime for food enthusiasts and home chefs alike.
+                    </p>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <img src="./Assets/000057880003.jpg" alt="Palm trees in Cannes" height="200px" />
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Analog Photography</h3>
+                    <p>
+                        Analog photography offers a unique and rewarding experience that digital photography often can't
+                        match. The tactile process of loading film, manually adjusting settings, and developing prints
+                        in a darkroom brings a sense of craftsmanship and anticipation. Each shot is deliberate,
+                        encouraging photographers to slow down and truly consider their composition. The distinct,
+                        timeless quality of film images, with their rich tones and subtle grain, adds a layer of
+                        authenticity and nostalgia. Embracing analog photography allows you to connect more deeply with
+                        the art form and appreciate the beauty of each captured moment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <h2 class="pb-2 border-bottom">Project Stills</h2>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                        class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                        class=""></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"
+                        class=""></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"
+                        class=""></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6" 
+                        class=""></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7" 
+                        class=""></button>
+                </div>
+                <div class="carousel-inner mt-5">
+                    <div class="carousel-item">
+                        <img src="./Assets/For_Spotify_1.31.1.POST.jpg" alt="Carla music video" />
+                        <div class="container"></div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./Assets/Untitled_1.15.1.jpg" alt="short film" />
+                        <div class="container"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Untitled_1.29.1.jpg" alt="Carla music video" />
+                        <div class="container"></div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./Assets/1.1.3_1.1.3.jpg" alt="short film" />
+                        <div class="container"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/1.1.7_1.1.7.jpg" alt="still image" />
+                        <div class="container"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Untitled_2.19.1.jpg" alt="still image" />
+                        <div class="container"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/Untitled_2.36.1.jpg" alt="still image" />
+                        <div class="container"></div>
+                    </div>
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="p-5 mb-4 bg-body-tertiary rounded-3 mt-5">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Get In Touch</h1>
+                    <p class="col-md-8 fs-4">Have a color grading project that needs a touch of magic, or looking for a concert buddy for the next Dua Lipa show? Let’s connect—I’d love to hear from you!</p>
+                    <button class="btn btn-light btn-lg" type="button"><a class="contact-button-link"
+                            href="mailto:stroem.colorist+website@gmail.com">Contact Me</a></button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer> -->
+    <section>
+        <footer class="fixed-bottom bg-dark p-2">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class=" mb-md-0 text-body-secondary">© 2024 Anders Strøm</span>
+                </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="https://www.instagram.com/anders.stroem/?hl=en" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary"
+                            href="https://www.linkedin.com/in/anders-str%C3%B8m-b33144152/" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg></a>
+                    </li>
+                </ul>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS & Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
