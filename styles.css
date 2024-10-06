@@ -25,12 +25,6 @@ body {
     }
 }
 
-.icon-square {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 0.75rem;
-}
-
 #profile-picture {
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #c5c4c4 inset;
@@ -45,9 +39,10 @@ body {
     text-decoration: none;
 }
 
-.about-me-pic > img {
+.rounded-pic > img {
     border-radius: 20px;
 }
+
 
 .carousel-inner div img {
     width: 100%;
